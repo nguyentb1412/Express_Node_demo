@@ -1,0 +1,164 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    link(rel='stylesheet', type='text/css', href='/stylesheets/style.css')
+    script(src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js')
+    script(src='/javascript/isotope.pkgd.min.js')
+    script(src='/javascript/jquery.flexslider.js')
+    script(src='/javascript/script.js')
+  body
+    .header.clearfix
+      .logoHeader
+        img(src='/images/header/logo.png')
+      .menu
+        ul.nav
+          li
+            .imageNav1
+              a.aNav(href='./')
+          li
+            .imageNav2
+              a.aNav(href='./')
+          li
+            .imageNav3
+              a.aNav(href='./')
+          li
+            .imageNav4
+              a.aNav(href='./')
+          li
+            .imageNav5
+              a.aNav(href='./')
+    .main
+      ul.slides
+        li
+          img.carousel(src='/images/main1.jpg')
+        li
+          img.carousel(src='/images/main2.jpg')
+        li
+          img.carousel(src='/images/main3.jpg')
+    .news
+      .titleNews
+        img.imageNews(src='/images/title_news.png')
+      .container
+        .content
+          .date 04.10.2014
+          .description1 ダミーテキスト。SASAYA公式サイトオープンしました。
+        .content
+          .date 03.10.2014
+          .description2
+            div パステリアバンブ
+            div テキスト選択時に色が変わります。春の特別メニューがはじまります。
+        .content
+          .date 02.10.2014
+          .description1
+            | この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。
+        .content
+          .date 01.10.2014
+          .description1
+            | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+            | aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+      .readmoreImage
+        img(src='/images/readmore_off.png')
+    .concept
+      .concept-wrapper
+    .brand.clearfix
+      .titleBrand
+        img.imageBrand(src='/images/title_brand.png')
+      .menuBrand
+        ul.navBrand
+          li
+            .imageBrandNav1
+              a.aBrand(data-filter='*')
+          li
+            .imageBrandNav2
+              a.aBrand(data-filter='.yakitori')
+          li
+            .imageBrandNav3
+              a.aBrand(data-filter='.yakitori_bar')
+          li
+            .imageBrandNav4
+              a.aBrand(data-filter='.sumibi-teppan')
+          li
+            .imageBrandNav5
+              a.aBrand(data-filter='.japanese')
+          li
+            .imageBrandNav6
+              a.aBrand(data-filter='.italian')
+      ul.contentBrand.js-isotope
+        li.element-item.yakitori(data-category='yakitori')
+          img(src='/images/brand/yakitori1_on.png', alt='yakitori1')
+          img(src='/images/brand/yakitori1_txt.png', alt='yakitori1_text')
+        li.element-item.yakitori_bar(data-category='yakitori_bar')
+          img(src='/images/brand/yakitori_bar1_on.png', alt='yakitori_bar1')
+          img(src='/images/brand/yakitori_bar1_txt.png', alt='yakitori_bar1_txt')
+        li.element-item.yakitori(data-category='yakitori')
+          img(src='/images/brand/yakitori2_on.png', alt='yakitori2_on')
+          img(src='/images/brand/yakitori2_txt.png', alt='yakitori2_txt')
+        li.element-item.italian(data-category='italian')
+          img(src='/images/brand/italian1_on.png', alt='italian1_on')
+          img(src='/images/brand/italian1_txt.png', alt='italian1_txt')
+        li.element-item.yakitori(data-category='yakitori')
+          img(src='/images/brand/yakitori3_on.png', alt='yakitori3_on')
+          img(src='/images/brand/yakitori3_txt.png', alt='yakitori3_txt')
+        li.element-item.yakitori_bar(data-category='yakitori_bar')
+          img(src='/images/brand/yakitori_bar2_on.png', alt='yakitori_bar2_on')
+          img(src='/images/brand/yakitori_bar2_txt.png', alt='yakitori_bar2_on_txt')
+        li.element-item.japanese(data-category='japanese')
+          img(src='/images/brand/japanese1_on.png', alt='japanese1_on')
+          img(src='/images/brand/japanese1_txt.png', alt='japanese1_txt')
+        li.element-item.japanese(data-category='japanese')
+          img(src='/images/brand/japanese2_on.png', alt='japanese2_on')
+          img(src='/images/brand/japanese2_txt.png', alt='japanese2_txt')
+        li.element-item.sumibi-teppan(data-category='sumibi-teppan')
+          img(src='/images/brand/sumibi-teppan1_on.png', alt='sumibi-teppan1_on')
+          img(src='/images/brand/sumibi-teppan1_txt.png', alt='sumibi-teppan1_txt')
+        li.element-item.sumibi-teppan(data-category='sumibi-teppan')
+          img(src='/images/brand/sumibi-teppan2_on.png', alt='sumibi-teppan2_on')
+          img(src='/images/brand/sumibi-teppan2_txt.png', alt='sumibi-teppan2_txt')
+        li.element-item.yakitori_bar(data-category='yakitori_bar')
+          img(src='/images/brand/yakitori_bar3_on.png', alt='yakitori_bar3_on')
+          img(src='/images/brand/yakitori_bar3_txt.png', alt='yakitori_bar3_txt')
+        li.element-item.sumibi-teppan(data-category='sumibi-teppan')
+          img(src='/images/brand/sumibi-teppan3_on.png', alt='sumibi-teppan3_on')
+          img(src='/images/brand/sumibi-teppan3_txt.png', alt='sumibi-teppan3_txt')
+        li.element-item.yakitori_bar(data-category='yakitori_bar')
+          img(src='/images/brand/yakitori_bar4_on.png', alt='yakitori_bar4_on')
+          img(src='/images/brand/yakitori_bar4_txt.png', alt='yakitori_bar4_txt')
+        li.element-item.japanese(data-category='japanese')
+          img(src='/images/brand/japanese3_on.png', alt='japanese3_on')
+          img(src='/images/brand/japanese3_txt.png', alt='japanese3_txt')
+        li.element-item.italian(data-category='italian')
+          img(src='/images/brand/italian2_on.png', alt='italian2_on')
+          img(src='/images/brand/italian2_txt.png', alt='italian2_txt')
+        li.element-item.yakitori(data-category='yakitori')
+          img(src='/images/brand/yakitori4_on.png', alt='yakitori4_on')
+          img(src='/images/brand/yakitori4_txt.png', alt='yakitori4_txt')
+        li.element-item.japanese(data-category='japanese')
+          img(src='/images/brand/japanese4_on.png', alt='japanese4_on')
+          img(src='/images/brand/japanese4_txt.png', alt='japanese4_txt')
+    .footer.clearfix  
+      .iconFooter
+        img(src='/images/footer/icon.png')
+      .containerFooter
+        img.imageContact(src='/images/footer/h1.png', alt='Contact')
+        .descriptionContact1
+          | 弊社に関するご質問・ご意見は下記フォームにてお問合せ下さい。
+        .descriptionContact2 Eメールでのご返答には少々お時間をいただく場合がございます。ご了承ください。
+        .descriptionContact2 お客様のメールアドレスに誤りがあったり、メール着信拒否設定になっている場合は、弊社からの返信メールをお受け取りいただけないことがございます。
+        .descriptionContact2 その場合は、お手数ですが、メールアドレスおよびメール着信設定をご確認の上、再度送信にてご連絡くださいますようお願いいたします。
+    .contact.clearfix
+      .arrow
+        img(src='/images/footer/arrow.png')
+      .leftContact
+        input.input1(type='text', placeholder='お名前')
+        input.input1(type='text', placeholder='フリガナ')
+        input.input1(type='text', placeholder='メールアドレス')
+        input.input1(type='text', placeholder='電話番号')
+      .rightContact
+        input.input2(type='text', placeholder='問い合わせ先店舗 ')
+        textarea.textarea(type='text', placeholder='問い合わせ内容')
+      .submit
+        img(src='/images/contact/submit.png')
+    .copyright
+      .copyrightImage
+        img(src='/images/footer/copyright.png')
